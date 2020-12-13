@@ -1,8 +1,10 @@
 #include <stdlib.h>
+#include <time.h>
 #define N 3
 
 int main()
-{
+{	
+	srand(time(NULL));
     int array[N][N];
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
