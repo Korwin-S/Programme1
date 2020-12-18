@@ -4,7 +4,7 @@
 
 #define N 3
 
-int Calculation1 (int a, int b){
+int Find_gcf (int a, int b){
     int result = 0;
     while (a != 0 && b != 0){
         if (a > b) a = a % b;
@@ -14,7 +14,7 @@ int Calculation1 (int a, int b){
     return result;
 }
 
-int Calculation2 (int array[]) {
+int Shift_matrix_right_1 (int array[]) {
     int temp[N];
     for (int i = 1; i <= N; i++) {
         temp[i-1] = array[(i-1)*N];
@@ -26,7 +26,7 @@ int Calculation2 (int array[]) {
     return 0;
 }
 
-int Calculation3 (int size, ... )
+int Num_of_ordered_pairs (int size, ... )
 {
     int result = 0;
     int i = 1;
@@ -49,8 +49,8 @@ int main(){
     const int Pr1_num1 = 175;
     const int Pr1_num2 = 250;
     int Pr1_result = 0, Pr1_result_rand = 0;
-    Pr1_result = Calculation1 (Pr1_num1, Pr1_num2);
-    Pr1_result_rand = Calculation1 (rand()%500, rand()%500);
+    Pr1_result = Find_gcf (Pr1_num1, Pr1_num2);
+    Pr1_result_rand = Find_gcf (rand()%500, rand()%500);
 
     ///// Program 2 /////
     int Pr2_array[N][N] = {0};
@@ -59,12 +59,12 @@ int main(){
             Pr2_array[i][j] = rand() % 10;
         }
     }
-    Calculation2 (&Pr2_array[0][0]);
+    Shift_matrix_right_1 (&Pr2_array[0][0]);
 
     ///// Program 3 /////
     int Pr3_size = 9;
-    int Pr3_result = Calculation3 (Pr3_size, 2, 2, 8, 7, 9, 3, 12, 5, 99);
-    int Pr3_result_random = Calculation3 (Pr3_size, rand()%100, rand()%100, rand()%100, rand()%100, rand()%100, rand()%100, rand()%100, rand()%100, rand()%100);
+    int Pr3_result = Num_of_ordered_pairs (Pr3_size, 2, 2, 8, 7, 9, 3, 12, 5, 99);
+    int Pr3_result_random = Num_of_ordered_pairs (Pr3_size, rand()%100, rand()%100, rand()%100, rand()%100, rand()%100, rand()%100, rand()%100, rand()%100, rand()%100);
 
     return 0;
 }
