@@ -1,0 +1,14 @@
+digraph "main"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Головна функція."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Find_gcf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#ab597b8478fce4cf54ec877ad33c4cd17",tooltip="Знаходження НСД двох чисел"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Num_of_ordered_pairs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#a2f4891c7715b4f27d05eab8503f0fbe7",tooltip="Знаходження серед заданої послідовності чисел кількості таких пар, у котрих перше число менше наступн..."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Shift_matrix_right_1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#a43aa7413f569fcb7355b6a594b2fc92c",tooltip="Циклічний зсув (зрушення) кожної строки матриці на 1 праворуч"];
+}
