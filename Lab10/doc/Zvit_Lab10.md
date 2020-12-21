@@ -23,8 +23,9 @@
 
 ![https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/1.jpg](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/1.jpg)  
 *Рисунок 1 — Функція Find_gcf*
-
-
+< >
+< >
+< >
 Для вирішення Завдання №2 використовується покроковий зсув кожного рядка разом з одночасним записом першого елемента рядка у масив temp. Після зсуву останньому елементу рядка надається значення, що було збережено у масиві temp. Операція повторюється N разів. 
 Всі ці дії виконуються у функції Shift_matrix_right_1. Для заповнення масиву було використано генератор псевдовипдакових чисел. Результат зберігається у тому ж масиві, що й первісні дані.  
 ![https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/1.jpg](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/3.jpg)  
