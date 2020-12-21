@@ -7,7 +7,7 @@
 ***Мета:*** Отримати навички роботи у Markdown та оформлення doc-файлу
 згідно з ГОСТом.
 
-***Індивідуальне завдання***
+***Індивідуальне завдання***  
 Робота на оцінку “відмінно”.
 * Завдання №1: «Визначити найбільший спільний дільник для двох заданих чисел».
 * Завдання №2: «Дано двовимірний масив з N \* N цілих чисел. Виконати циклічне зрушення елементів рядків масиву в напрямку справа наліво (перший елемент рядка повинен переміститися в ії кінець)».
@@ -15,18 +15,18 @@
 
 ### Опис програми
 
-**Алгоритм вирішення поставленої задачі**
+***Алгоритм вирішення поставленої задачі***  
 Для вирішення Завдання №1 використовується програмна реалізація
 алгоритма Євкліда. Функція Find_gcf приймає два числа та повертає їх НСД. Викликається функція двічі – з заданими та згенерованими випадково числами.
 
-![https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/1.jpg](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/1.jpg)
+![https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/1.jpg](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/1.jpg)  
 *Рисунок 1 — Функція Find_gcf*
 
 
 Для вирішення Завдання №2 використовується покроковий зсув кожного рядка разом з одночасним записом першого елемента рядка у масив temp. Після зсуву останньому елементу рядка надається значення, що було збережено у масиві temp. Операція повторюється N разів. 
 Всі ці дії виконуються у функції Shift_matrix_right_1. 
 Для заповнення масиву було використано генератор псевдовипдакових чисел. Результат зберігається у тому ж масиві, що й первісні дані.
-![https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/1.jpg](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/3.jpg)
+![https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/1.jpg](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/3.jpg)  
 *Рисунок 2 — Функція Shift_matrix_right_1*
 
 Для вирішення Завдання №3 використовується функція
@@ -35,28 +35,28 @@ Num_of_ordered_pairs з варіативною кількістю аргумен
 Повертає число – кількість пар чисел, що відповідають умові задачі.
 Викликається функція двічі – з заданими та згенерованими випадково
 числами.
-![https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/1.jpg](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/2.jpg)
+![https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/1.jpg](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/2.jpg)  
 *Рисунок 3 — Функція Num_of_ordered_pairs*
 
 
 ### Схеми алгоритмів функцій
-![main_Pr1.png](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab09/doc/assets/main_Pr1.png)
+![main_Pr1.png](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab09/doc/assets/main_Pr1.png)  
 
-![main_Pr1.png](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab09/doc/assets/main_Pr2.png)
+![main_Pr1.png](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab09/doc/assets/main_Pr2.png)  
 
-![main_Pr1.png](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab09/doc/assets/main_Pr3.png)
+![main_Pr1.png](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab09/doc/assets/main_Pr3.png)  
 *Рисунок 4 — Блок-схема функції main, яка складається з трох програм*
 
 
-![Рисунок 1 — Функція Find_gcf](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab09/doc/assets/Find_gcf.png)           
+![Рисунок 1 — Функція Find_gcf](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab09/doc/assets/Find_gcf.png)  
 *Рисунок 5 — Блок-схема функції Find_gcf*
 
 
 
- ![Рисунок 2 — Функція Num_of_ordered_pairs](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab09/doc/assets/Num_of_ordered_pairs.png)
+![Рисунок 2 — Функція Num_of_ordered_pairs](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab09/doc/assets/Num_of_ordered_pairs.png)  
 *Рисунок 6 — Блок-схема функції Num_of_ordered_pairs*
 
- ![Рисунок 2 — Функція Shift_matrix_right_1](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab09/doc/assets/Shift_matrix_right_1.png)
+![Рисунок 2 — Функція Shift_matrix_right_1](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab09/doc/assets/Shift_matrix_right_1.png)  
 *Рисунок 7 — Блок-схема функції Shift_matrix_right_1*
 
 
@@ -134,7 +134,7 @@ int main(){
 ```
 ### Результати роботи програми
 
-![Рисунок 2 — Функція Shift_matrix_right_1](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/4.jpg)
+![Рисунок 2 — Функція Shift_matrix_right_1](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/4.jpg)  
 *Рисунок 8 — Результат успішного виконання програми*
 
 ### Висновки
