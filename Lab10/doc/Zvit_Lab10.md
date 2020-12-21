@@ -22,20 +22,18 @@
 алгоритма Євкліда. Функція Find_gcf приймає два числа та повертає їх НСД. Викликається функція двічі – з заданими та згенерованими випадково числами.
 
 ![https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/1.jpg](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/1.jpg)  
-*Рисунок 1 — Функція Find_gcf*
-< >
-< >
-< >
+*Рисунок 1 — Функція Find_gcf*  
+
 Для вирішення Завдання №2 використовується покроковий зсув кожного рядка разом з одночасним записом першого елемента рядка у масив temp. Після зсуву останньому елементу рядка надається значення, що було збережено у масиві temp. Операція повторюється N разів. 
 Всі ці дії виконуються у функції Shift_matrix_right_1. Для заповнення масиву було використано генератор псевдовипдакових чисел. Результат зберігається у тому ж масиві, що й первісні дані.  
 ![https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/1.jpg](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/3.jpg)  
-*Рисунок 2 — Функція Shift_matrix_right_1*
+*Рисунок 2 — Функція Shift_matrix_right_1*  
 
 Для вирішення Завдання №3 використовується функція
 Num_of_ordered_pairs з варіативною кількістю аргументів. Вона приймає число – кількість наступних аргументів, та, власне, ці аргументи. Повертає число – кількість пар чисел, що відповідають умові задачі.
 Викликається функція двічі – з заданими та згенерованими випадково числами.  
 ![https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/1.jpg](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab10/doc/assets/2.jpg)  
-*Рисунок 3 — Функція Num_of_ordered_pairs*
+*Рисунок 3 — Функція Num_of_ordered_pairs*  
 
 
 ### Схеми алгоритмів функцій
