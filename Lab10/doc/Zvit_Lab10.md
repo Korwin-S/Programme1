@@ -45,27 +45,29 @@ Num_of_ordered_pairs з варіативною кількістю аргумен
 
 ![main_Pr1.png](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab09/doc/assets/main_Pr3.png)  
 *Рисунок 4 — Блок-схема функції main, яка складається з трох програм*  
-###
-###
-###
-
+###  
+###  
+###  
+###  
 ![Рисунок 1 — Функція Find_gcf](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab09/doc/assets/Find_gcf.png)  
 *Рисунок 5 — Блок-схема функції Find_gcf*  
-###
-###
-###
-
+###  
+###  
+###  
+###  
 
 ![Рисунок 2 — Функція Num_of_ordered_pairs](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab09/doc/assets/Num_of_ordered_pairs.png)  
 *Рисунок 6 — Блок-схема функції Num_of_ordered_pairs*  
-###
-###
-###
+###  
+###  
+###  
+###  
 ![Рисунок 2 — Функція Shift_matrix_right_1](https://raw.githubusercontent.com/Korwin-S/Programme1/master/Lab09/doc/assets/Shift_matrix_right_1.png)  
 *Рисунок 7 — Блок-схема функції Shift_matrix_right_1*  
-###
-###
-###
+###  
+###  
+###  
+###  
 
 ### Текст програми
 ```
