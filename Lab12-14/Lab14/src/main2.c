@@ -56,7 +56,7 @@ char read_from_file(char *string) {
  */
 int calculate_file_size(FILE *file)
 {
-    int first_position = ftell(file);
+    int first_position = ftell(file);   //текущее положение указателя
     fseek(file, 0, SEEK_END);
     int file_size = ftell(file);
     fseek(file, first_position, SEEK_SET);

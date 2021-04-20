@@ -44,6 +44,7 @@ int get_count_of_operators(char *string)
             memset(temp, '_', 1);
         }
     }
+    free(string_copy);
     return counter;
 }
 
