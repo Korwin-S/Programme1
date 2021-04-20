@@ -1,6 +1,9 @@
 */src/CMakeLists.txt
 */src/cmake-build-debug
 */src/.idea
+*/test/CMakeLists.txt
+*/test/cmake-build-debug
+*/test/.idea
 */*/src/CMakeLists.txt
 */*/src/cmake-build-debug
 */*/src/.idea
