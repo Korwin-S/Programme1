@@ -7,6 +7,9 @@
 */*/src/CMakeLists.txt
 */*/src/cmake-build-debug
 */*/src/.idea
+*/*/test/CMakeLists.txt
+*/*/test/cmake-build-debug
+*/*/test/.idea
 */.idea
 */dist
 */Doxyhui.bat
