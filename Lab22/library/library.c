@@ -190,7 +190,6 @@ void Print_Regex_Two_Words(struct List * list) {
             Print_bird(bird);
         }
     }
-
 }
 
 void Read_list_from_file(struct List* list){

@@ -24,6 +24,8 @@
 
 #include "../Library/library.h"
 
+#define DEBUG
+
 /**
  * **Головна функція.**
  *
@@ -37,8 +39,6 @@
  */
 int main() {
     system("chcp 65001");
-
-    #define DEBUG
 
     #ifdef DEBUG
         Print_Date();
