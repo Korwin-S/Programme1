@@ -151,7 +151,7 @@ bool Regex_Check(struct Bird *bird){
     sprintf(boool, "%d", bird->LOTR);
     if (regexec(&regex, boool, 0, NULL, 0) != 0) result = false;
 
-    regcomp(&regex, "^ ?[A-ZА-Я]([A-ZА-Яa-zа-я]*( )?)*$", REG_EXTENDED);
+    regcomp(&regex, "^ ?[A-ZА-Я]([A-ZА-Яa-zа-я]+ ?)+$", REG_EXTENDED);
     if (regexec(&regex, bird->name, 0, NULL, 0) != 0) result = false;
 
     char num[5];
