@@ -31,7 +31,7 @@ void CList::Delete_Bird(int index){
     if (index != 0) {
         copy(list, (list + index), new_list);
     }
-    if (index < (int_32t) N - 1) {
+    if (index < (int) N - 1) {
         copy((list + index + 1), (list + N), new_list + index);
     }
 
