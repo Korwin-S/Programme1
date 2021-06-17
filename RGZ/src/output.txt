@@ -1,0 +1,7 @@
+
+Yes Albatross 201 210 35 0 No Male January July
+No Cockoo 37 444 9 2 Yes Female
+No Eagle 89 2780 10 5 Yes Male
+Yes Pigeon 46 763 81 3 Yes Male -7 25
+Yes Seagull 287 296 70 6 No Female -15 16
+Yes Sparrow 56 800 15 0 No Male September May
